@@ -1,0 +1,343 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tuno Flight</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand" href="#">Tune <span style="color:black;">Travel</span></a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsupportedcontent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+      <ul class="navbar-nav md-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbardropdown" role="button" data-toggle="dropdown">Travel</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="TRAVEL.html">Book Flights & Hotels</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Travel insurance</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Travel Host</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Expolore Tours</a>
+          </div>
+        </li>
+        <!-- nav mobile start -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbardropdown" role="button" data-toggle="dropdown">Mobile</a>
+          <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Book Flights & Hotels</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Travel insurance</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Travel Host</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Expolore Tours</a>
+          </div> -->
+        </li>
+        <!-- nav City ride -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbardropdown" role="button" data-toggle="dropdown">City Ride</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Over Ride</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">How Its Work</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Fare Estimater</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Safty</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Cities</a>
+          </div>
+        </li>
+        <!-- nav City Ammbasitar -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbardropdown" role="button" data-toggle="dropdown">City Ammbassodar</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Over view</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Requerment</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Driver App</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Safty</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-l" >
+      <a class="sign" href="">Help</a>
+      <a class="sign" href="">Sign In</a>
+    </div>
+  </nav>
+<!-- ------------------------------------------Section 2-------------------------------- -->
+<div class="container-fluid bg-light">
+  <div class="travel" >
+    <h1 class="heading">"TRAVEL MADE EASY "👍</h1>
+  </div>
+  <!--Trigger-->
+<a class="login-trigger" href="#" data-target="#login" data-toggle="modal" ;>Sign UP</a>
+
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    
+    <div class="modal-content">
+      <div class="modal-body">
+        <button data-dismiss="modal" class="close">&times;</button>
+        <h4>Fill this form</h4>
+        <form>
+          <input type="text" name="username" class="username form-control" placeholder="Firt Name"/>
+          <input type="text" name="lastname" class="lastname form-control" placeholder="lastname"/>
+          <input type="text" name="E-mail" class="E-mail form-control" placeholder="Enter Your E-mail"/>
+          <input type="password" name="password" class="password form-control" placeholder="password"/>
+          <input type="Re-password" name="Re-password" class="Re-password form-control" placeholder="Re-password"/>
+          <select  title="select Country" name="select country" class="country form-control" id="sel1" placeholder="select country">
+            <option>india</option>
+            <option>Londan</option>
+            <option>Japan</option>
+            <option>America</option>
+          </select>
+          <input type="number" name="phone number" class="number form-control" placeholder="number"/>
+          <input class="btn login" type="submit" value="Register" />
+          <p>By proceeding, I agree that Tune Travel or its representatives may contact me by email, phone, 
+            or SMS (including by automatic telephone dialing system) at the email address or number I provide, including for marketing purposes. 
+            I have read and understand the relevant Privacy Statement.</p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</div>
+</div>
+<!-- --------------Section-3-------------- -->
+<div class="para">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card pb-5" style="width: 20rem;">
+        <img class="card-img-top" src="images/part-2/fami4.png" alt="Card image cap">
+        <div class="card-body">
+          <h4>Easiest way around</h4>
+          <p class="card-text">A convenient and affordable way to travel within your city while enjoying benefits and making new friends...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="images/part-2/fami-2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4>City Ambassador</h4>
+          <p class="card-text">   If you are a visitor to Malaysia, let our warm and friendly City Ambassadors be the first to welcome you, provide your
+             transport needs from compact sedans to MPVs and share with you the Malaysian experience...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="images/part-2/fami-3.png" alt="Card image cap">
+        <div class="card-body">
+          <h4>Travel like a local</h4>
+          <p class="card-text">Experience the local way of life by connecting with locals at your destination who share similar interests with you and learn the best places to see,
+             things to do and other secrets of your destination...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="button ">
+    <div>
+   
+   </div>
+</div> -->
+</div>
+
+<!-- ------------------------Section-4-------------- -->
+<div class="jumbotron jumbotron-fluid bg-light pt-5 ">
+  <div class="container">
+    <button class="btn "> REASONS TO RIDE</button>
+    <p class="display-4">Pricing</p>
+    <h1>Get a fare estimate</h1>
+  </div>
+  <form>
+    <div class="form-group pt-1">
+      <label for="formGroupExampleInput"></label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder=" Enter Pikcup Location" style="width: 300px ; margin-left: 125px; ">
+    </div>
+    <div class="form-group pb--1">
+      <label for="formGroupExampleInput2 "></label>
+      <input type="text" class="form-control " id="formGroupExampleInput2" placeholder="Enter Destination" style="width: 300px; margin-left: 125px;">
+      <button type="submit" class="btn btn-primary" style="margin-left: 120px;">GO</button> 
+    </div>
+  </form>
+</div>
+
+<!-- ---------------Section-5----------- -->
+
+<div class="jumbotron_1 jumbotron-fluid" style="background-image: url(images/bgground.jpg);">
+  <div class="container">
+    <h1 class="display">Show the world the beauty of you country</h1>
+    <p class="lead_1">as a City Ambassador or Travel Hos</p>
+    <p class="lead_2">Make new friends and increase your income.</p>
+
+    <button type="submit" class="btn btn-primary" style="margin-left: 120px;">REASONS TO BE  A CITY AMMBASSODARS. </button> 
+  </div>
+</div>
+
+<!-- ----------------Section-6----------------- -->
+
+<div class="simple">
+  <h2>Unlocking cities <br>
+    Imagine a world with fewer, fuller cars</h2> 
+    <p>Learn about the people, the culture and the exciting things to do in every destination you  <br> visit. Let our City Ambassadors & Travel Hosts introduce you to all the fascinating things 
+      that make your destination unique and memorable.</p>
+      <a class="link" href="">Learn More</a>
+</div>
+<!-- ----------------video------------ -->
+<div class="video">
+  <video autoplay="" loop="" controls="" width="100%" height="100%">
+    <source type="video/mp4" src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4">
+    </video>
+</div> <br> <br>
+
+<!-- ---------footer-------------- -->
+<!-- <footer class="footer-1">
+  <div class="row ">
+    <div class="col-sm-4">
+      <h2 class="tune"><a href=""> TUNE TRAVELS</a></h2>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn-3">SIGN UP A CITY RIDE</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="bcm">BECOME A CITY AMMBASSODARS</button>
+    </div> <br>
+  </div>
+  <hr>
+  <div class="footer-2">
+    <div class="row">
+      <div class="col-md-3"> 
+        <i class="fa fa-map-marker" style="font-size:36px"> <a href="">Enter your Location</a></i>
+        <i class="fa fa-globe" style="font-size:36px"><a href="">English</a></i>
+        <br>
+        <section id="lab_social_icon_footer">
+Include Font Awesome Stylesheet in Header
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+        <div class="text-center center-block">
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+</div>
+</section>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li><a href="">Flights</a></li>
+          <li><a href=""> Hotels</a></li>
+          <li><a href=""> Travel Insurance</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</footer> -->
+
+<footer class=" footer bg-dark pt-5">
+ <div class="row"> 
+  <div class="col-md-4 ">
+    <a href="">TUNE TRAVEL</a>
+  </div>
+  <div class="col-md-4">
+    <button class="btn-2">SIGN UP A CITY RIDE</button>
+  </div>
+  <div class="col-md-4">
+    <button class="btn-3"> BECOME A CITY AMMBASSODARS </button>
+  </div>
+ </div> <hr style="background-color: white;">
+ <br><br>
+  <div class="containet">
+    <div class="row">
+      <div class="col-md-3">
+        <a href=""><i class="fa fa-map-marker" style="font-size:30px">Enter Your Location </i></a>
+        <a href=""><i class="fa fa-globe" style="font-size:30px">English</i></a>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <a class="a3" href=""> TRAVEL INSURANCE</a> <br>
+        <a class="a3" href=""> HOTE </a> <br>
+        <a class="a3" href=""> FLIGHTS</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <a class="a4" href="">Mobile</a> <br>
+        <a class="a4" href="">Expolore</a> <br>
+        <a class="a4" href="">Travel Host</a>
+      </div>
+      <div class="col-md-3">
+        <a class="a4" href="">Safty</a> <br>
+        <a class="a4" href="">Contact US</a> <br>
+      </div>
+    </div>
+  </div> <br> 
+    <hr style="background-color: white;"> 
+    <div>
+      <div class="lab_social_icon_footer">
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+        <div class="container">
+                <div class="text-center center-block">
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                      <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr style="background-color: white;">
+    <div class="country">
+      <div class="row">
+         <div class="col-md-6">
+          <h3 style="color: white;">TOP COUNTRY</h3>
+          <a class="a3" href=""> Australia</a>
+          <a href="" class="a3"> Indonesia</a>
+          <a href="" class="a3"> Malaysia</a>
+         </div>
+         <div class="col-md-6">
+          <h3 style="color: white;">TOP CITES</h3>
+          <a class="a3" href="">kuala lampur </a>
+          <a class="a3" href="">george Town </a>
+          <a class="a3" href="">langawi </a>
+          <a class="a3" href="">Ipoh </a> 
+          <a class="a3" href="">johor Bharu </a>
+          <a class="a3" href="">Malacca</a>         
+         </div>
+      </div>
+    </div> <br> <br>
+    <hr style="background-color: white;">
+    
+    <div class="appst">
+     <a href=""><img class="app" src="images/icons/app_store.png" alt="mac"></a>
+     <a href=""><img class="app1" src="images/icons/google_play.png" alt="gplay" ></a>
+    <br>
+    <p style="color: whitesmoke;">&copy;2018 Tune Travel Sdn Bhd</p>
+    <p style="color: whitesmoke;">Privacy</p>
+    <p style="color: whitesmoke;">Terms</p>
+    <br>
+    <p style="color: whitesmoke; ">Tune Travel is an independent organization and is not related to or a part of any company or group of companies bearing similar sounding names.</p> <br>
+    </div>
+</footer>
+</body>
+</html>
